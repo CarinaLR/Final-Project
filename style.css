@@ -1,0 +1,112 @@
+body{
+  background-color: lemonchiffon;
+  background-image: url("https://images.unsplash.com/photo-1534258936925-c58bed479fcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+}
+h1{
+  padding: 200px;
+  border: 1px solid orange;
+  margin-top: 200px;
+ }
+ #text{
+    font-optical-sizing: 6.08 em;
+    position: absolute; 
+    width: 60px; 
+    right: 20; 
+    top: 50; 
+    bottom: 0; 
+    color: white
+ }
+ .boxed{
+   border: 1px solid orange;
+ }
+ #Formula{
+   color: orange;
+   font-size: 30px;
+   position: center;
+   margin-right: 500px;
+   margin-top: 100px;
+ }
+ .placeholder{
+   float: right;
+ }
+ #cal{
+   width: 300px;
+   height: 50px;
+   border: 10px;
+   font-size: 20px;
+ }
+ #add{
+  width: 55px;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 8px;
+  margin: 1px;
+ }
+ .instructions{
+   color: white;
+ }
+ .FI{
+   color: white;
+   font-size: 20px;
+ }
+ #Active{
+   color: orange;
+   font-size: 30px;
+ }
+ #box{
+   max-width: 150em;
+ }
+ .fontWhite{
+   color: lemonchiffon;
+   font-size: 20px;
+ }
+ .moveRight{  
+   margin-left: 550px
+ }
+ #demo2{
+   color: lemonchiffon;
+   font-size: 20px;
+ }
+
+ .boxSize{
+   width: 15em;
+ }
+
+ .demoColor{
+   float: right;
+   width: 360px 
+ }
+ .demoFont{
+   padding: 60px;
+   color:orange ;
+   font-size: 40px;
+ }
+ .infoActive{
+   padding: 60px;
+   color: black;
+   font-size: 20px;
+   border: 1px solid orange;
+   background-color:rgb(245,245,220,0.5);
+ }
+ .logo{
+   animation: logoAnimation 3s, 3s, 1;
+ }
+ 
+ @keyframes logoAnimation{
+   0%{
+     transform: scale(0.2);
+   }
+   50%{
+     transform: scale(1.5);
+   }
+   100%{
+     transform: scale(1);
+   }
+ }
+ .movo_right{
+   width: 5em;
+   height: 5em;
+   margin-left: 900px;
+   padding: 20px;
+   border-top-left-radius: 90px;
+ }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <b><ul class="demoColor infoActive"><li>Sedentary: Little or no exercise.</li><br><br>
+    <li>Ligthly Active: Light exercise (1 to 3 days/week).</li><br><br>
+    <li>Moderately Active: Moderate exercise (3 to 5 days/week).</li><br><br>
+    <li>Very Active: Hard exercise (6 to 7 days/week).</li><br><br>
+    <li>Extremely Active: Hard dayly exercise and/ or a physical job.</li></ul></b>
+  <!-- Set the page's name and logo -->
+    <header class="container">
+      <div class="intro">
+        <h1 id="text" class="logo">Get Me Fit!</h1>
+      </div>
+    </header>
+
+  <!-- Set the placeholder to get input of user -->
+    <form id="form1">
+      <h3 type="text" id="Formula" class="moveRight">LET'S KILL IT!!!<br><br>
+      </h3>
+        <p class="FI moveRight"><b>2nd Step:</b> Enter your basic calorie intake<br>
+        obtained from step 1, and click Add.<p/>      
+          <input name= "cal" type="value" id="cal1" class="moveRight" >
+    </form>  
+
+  <!-- Create a button to link with a function in js -->
+         <button onclick="weigthLoss()" class="moveRight">Add</button>
+
+         <p id="demo" class="moveRight fontWhite"></p>
+  <!-- Set instructions to user -->
+        <p class="FI moveRight"><b>3rd Step:</b> Choose your daily activity level.<br><br>Refer to the information to your right<br>to help you pick the right option.</p>
+
+  <!-- Display the result of the function into the web page -->
+    
+
+  <!-- Set a new div to create new segment of page -->
+      <div class="dailyActividty moveRight">
+        <h3 type="text" id="Active">Daily Activity</h3>
+        <div id="box" include="form-input-select()">
+  <!-- Create a select box to provide options to the user -->
+  <select required id="option" name= "option" onChange="myOption()">
+    <option value=""
+            hidden
+    >Chose one option</option>
+    <option value="1.2">Sedentary</option>
+    <option value="1.375">Lightly Active</option>
+    <option value="1.55">Moderately Active</option>
+    <option value="1.7">Very Active</option>
+    <option value="1.9">Extremely Active</option>
+  </select>
+    <p id="demo2"></p>
+</div>
+      </div>
+  <p class="moveRight FI">Click <a href="CalorieTracker.html">here</a> to get a example of how many calories a healthy meal has.</p><br><br>
+
+    <script src="script.js"></script>
+  </body>
+</html>
